@@ -10,3 +10,5 @@ RUN apt-get update && apt-get install -y \
     telnet \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
+
+CMD ["/bin/bash", "-i"]
