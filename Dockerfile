@@ -6,7 +6,6 @@ RUN apt-get update && apt-get install -y \
     curl \
     dnsutils \
     netcat \
-    tracepath \
     nmap \
     telnet \
  && apt-get clean \
